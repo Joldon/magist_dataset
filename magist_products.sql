@@ -259,7 +259,6 @@ ON oo.order_id = oi.order_id
 WHERE order_status = 'delivered'
 GROUP BY Tech_Products;
 # This data is actual 21.02.23
-Error Code: 1054. Unknown column 'Tech_Products' in 'field list'
 
 SELECT AVG(review_score), Tech_Products
 FROM product_category_name_translation as pcnt 
